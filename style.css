@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    display: block;
+    top:100px;
+    position: relative;
+    background-color: antiquewhite;
+    text-align: justify;
+    font-size: 1.2em;
+    color: white;
+    
+}
+.leftContainer {
+    position: fixed;
+    left: 0;
+    width: 10%;
+    height: 90%;
+    background-color: lightcoral;
+    text-align: center;
+}
+.leftContainer span {
+    display: block;
+    padding: 20px;
+}
+.leftContainer a{
+    text-decoration: none;
+    color: white;
+}
+
+.mainContainer {
+    position: relative;
+    background-image: url("https://pics.freeartbackgrounds.com/fullhd/Beautiful_Sky_with_Clouds_Background-803.jpg");
+    top:10%;
+    left:10%;
+    width: 90%;
+    padding: 10px;
+}
+.mainContainer span {
+    padding: 20px;
+}
+.mainContainer h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.mainContainer p {
+    padding: 10px;
+}
+
